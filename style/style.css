@@ -1,0 +1,58 @@
+.wrapper{
+    width: 1024px;
+    height: 100%;
+    margin: 10px auto;
+    box-shadow: 0 0 0 5px lightgray;
+    border-radius: 5px;
+}
+
+.header{
+    margin: 10px auto;
+    width: 30%;
+}
+
+form {
+    width: 70%;
+    margin: 20px auto;
+    box-shadow: 0 0 0 3px lightgray;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.text{
+    width: 90%;
+    margin: 5px 5%;
+}
+
+.label, .sbmButton{
+    width: 25%;
+    margin-left: 5%;
+} 
+
+.newsWrapper{
+    width: 95%;
+    display: flex;
+    margin: 10px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.news{
+    position: relative;
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0 0 0 3px lightgray;
+    margin: 10px auto;
+    padding: 5px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+}
+
+.deleteButton{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
